@@ -1,7 +1,9 @@
 <template>
     <div 
     class="term"
-    v-html="content">
+    >
+        <h1 class="term__h1">{{data&&data.name.ru}}</h1>
+        <div v-html="data&&data.content.ru"></div>
     </div>
 </template>
 <script>
@@ -16,7 +18,7 @@ export default {
     
     data() {
         return {
-            content: null
+            data: null
         }
     },
     methods: {
@@ -27,7 +29,7 @@ export default {
     
     async created() {
         try {
-            this.content = (await this.postAlias(this.name)).content.ru
+            this.data = await this.postAlias(this.name)
         } catch (error) {}
     }
 }
@@ -35,5 +37,8 @@ export default {
 <style lang="scss" scoped>
 .term {
     padding: 17px;
+    &__.h1 {
+        margin-bottom: 20px;
+    }
 }
 </style>
