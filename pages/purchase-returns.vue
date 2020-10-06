@@ -1,3 +1,3 @@
 <template>
-  <Terms name="purchase-returns"/>
+  <Terms name="purchase-returns" />
 </template>

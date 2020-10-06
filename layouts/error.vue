@@ -1,13 +1,12 @@
 <template>
   <div class="error">
     <b>404 -</b>
-    <div> нет такой страницы</div> 
+    <div>нет такой страницы</div>
   </div>
 </template>
-<script>
-</script>
+<script></script>
 <style style="scss" scoped>
-.error{
+.error {
   display: flex;
   height: 80vh;
   justify-content: center;

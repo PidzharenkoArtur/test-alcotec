@@ -1,3 +1,3 @@
 <template>
-  <TableProducts :id='322'/>
+  <TableProducts :id="322" />
 </template>

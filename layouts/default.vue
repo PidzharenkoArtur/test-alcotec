@@ -1,11 +1,10 @@
 <template>
   <div>
-    <MenuPage/>
-    <Nuxt/>
+    <MenuPage />
+    <Nuxt />
   </div>
 </template>
-<script>
-</script>
+<script></script>
 <style style="scss">
 html {
   font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',

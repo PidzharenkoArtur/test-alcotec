@@ -1,3 +1,3 @@
 <template>
-  <Terms name="payment"/>
+  <Terms name="payment" />
 </template>
