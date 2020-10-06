@@ -32,11 +32,11 @@ export default {
                 },
                 {
                     name: 'Условия возврата',
-                    link: '/'
+                    link: '/purchase-returns'
                 },
                 {
                     name: 'Условия оплаты',
-                    link: '/'
+                    link: '/payment'
                 },
             ]
         }

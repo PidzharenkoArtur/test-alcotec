@@ -12,8 +12,19 @@ export default {
                 page: page,
                 perpage: perpage,
             });
+            return Promise.resolve(response)
+        } 
+        catch {}
+    },
 
-            return Promise.resolve(response);
+    async postAlias({}, name) {
+        let url, response
+
+        url = '/pages/'+name
+
+        try {
+            response = await this.$axios.$get(url)
+            return Promise.resolve(response)
         } 
         catch {}
     },
